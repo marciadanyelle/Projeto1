@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Almoxarifado IFPB - Gestão de Fornecedores</title>
+</head>
+<body>
+    <header>
+        <img src="https://www.ifpb.edu.br/imagens/logotipos/ifpb-1" alt="Logo IFPB" width="150">
+        <h1>Gestão de Fornecedores</h1>
+    </header>
+
+    <main>
+        <h3>Novo Fornecedor</h3>
+        <form id="formFornecedor">
+            <label>Nome/Razão Social:</label><br>
+            <input type="text" name="nome_fornecedor" required><br><br>
+
+            <label>CNPJ:</label><br>
+            <input type="text" name="cnpj" placeholder="00.000.000/0001-00"><br><br>
+
+            <label>Endereço:</label><br>
+            <input type="text" name="endereco"><br><br>
+
+            <label>Contato (E-mail/Tel):</label><br>
+            <input type="email" name="contato"><br><br>
+
+            <button type="submit">Cadastrar Fornecedor</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por: Márcia Danyelle Evangelista</p>
+    </footer>
+</body>
+</html>
